@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <audio src="" id="audio"></audio>
+    <div class="musicPlayer">
+        <h1 class="musicName">song name</h1>
+        <p class="artistName">artist</p>
+
+        <div class="disk play"></div>
+
+        <div class="songSlider">
+            <input type="range" value="0" class="seekBar">
+            <span class="currentTime">00:00</span>
+            <span class="durationTime">00:00</span>
+        </div>
+
+        <div class="controls">
+            <button class="btn backwardBtn"><i class="fa-solid fa-backward-fast"></i></button>
+            <button class="playBtn pause">
+                <span></span>
+                <span></span>
+            </button>
+            <button class="btn forwardBtn"><i class="fa-solid fa-forward-fast"></i></button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <footer class="footer">Developed By: Intiyaj Raj</footer>
+</body>
+
+</html>

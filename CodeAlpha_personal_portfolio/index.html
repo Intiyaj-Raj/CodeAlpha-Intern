@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intyajpersonalportfoliosite.in</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- this link is used for make your portfolio responsive (goof looking phone) -->
+    <!-- <link rel="stylesheet" href="phone.css"> -->
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section(Navbar) -->
+    <div id="header">
+        <div class="container">
+            <nav id="navbar">
+                <img class="logo" src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#certificate">Certificate</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="headerText">
+                <p>Frontend Developer</p>
+                <h1>Hii, I'm <span id="text"></span> <br> form India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutCol1">
+                    <img src="images/about.png" alt="">
+                </div>
+                <div class="aboutCol2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about_content"> I am a passionate Frontend Developer currently pursuing an
+                        internship where I am building my skills in HTML, CSS, Tailwind CSS,
+                        and JavaScript. My goal is to create visually appealing and highly
+                        functional web pages that provide seamless user experiences. I
+                        am always eager to learn and adapt, with a deep interest in
+                        staying updated with industry trends and improving my problemsolving abilities.
+                    </p>
+
+                    <div class="tabTitles">
+                        <p class="tabLinks activeLink" onclick="opentab('skills')">Skills</p>
+                        <p class="tabLinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tabLinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- SKILLS -->
+                    <div class="tabContents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Developer</span><br>Website Developer</li>
+                            <li><span>Web Development</span><br>Website app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <!-- EXPERIENCE -->
+                    <div class="tabContents" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Frontend Training at Codtech IT Solutions </li>
+                        </ul>
+                    </div>
+                    <!-- EDUCATION  -->
+                    <div class="tabContents" id="education">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Computer Science Engineering</li>
+                            <li><span>2023</span><br>Intermediate of Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2>Web Design</h2>
+                    <p class="about_content">As a skilled frontend developer, I specialize in designing responsive,
+                        visually appealing websites that deliver seamless user experiences across all devices. I create
+                        fast, mobile-friendly, and SEO-optimized websites that enhance your brand’s online presence. My
+                        design process focuses on understanding your business goals and translating them into
+                        user-friendly, scalable solutions. Whether it's a portfolio, business site, or e-commerce
+                        platform, I ensure every website is functional and aligned with your vision. By using the latest
+                        technologies and design trends, I build websites that engage visitors and support long-term
+                        business growth. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p class="about_content">As a frontend developer, I specialize in designing intuitive, user-friendly
+                        mobile applications for both iOS and Android platforms. My approach combines stunning visuals
+                        with seamless functionality, ensuring your app is not only aesthetically appealing but also
+                        performs smoothly. I focus on creating engaging, responsive interfaces that provide an excellent
+                        user experience, driving user retention and engagement. Whether you're building a startup app or
+                        expanding an existing product, I deliver custom solutions tailored to your business goals. By
+                        following user-centered design principles, I ensure your app is optimized for both performance
+                        and usability, ensuring its success in a competitive market.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Software Design</h2>
+                    <p class="about_content">As an experienced developer, I specialize in creating custom software
+                        solutions that are efficient, scalable, and tailored to your business needs. I focus on
+                        designing intuitive user interfaces (UI) and seamless user experiences (UX) that ensure ease of
+                        use and maximum functionality. By leveraging the latest technologies and industry best
+                        practices, I deliver software that is both reliable and high-performing. Whether it’s a business
+                        management system, CRM, or custom application, I provide solutions that are built for growth and
+                        long-term success, ensuring that your software adapts as your business evolves.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Work -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>📺 Netflix Clone</h3>
+                        <p>Created a front-end clone of the Netflix homepage using only HTML and CSS. Designed
+                            responsive layout, movie sections, and hover effects for a modern look.</p>
+                        <a href="https://gorgeous-pavlova-cfc587.netlify.app/"><i class="fa fa-external-link"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>📚 Online Learning Platform</h3>
+                        <p>Designed and implemented a clean, user-friendly layout for an online learning platform,
+                            including course listing pages, responsive grids, and interactive UI components.
+                        </p>
+                        <a href="https://mindlearneronlinelearningplatform.netlify.app/">
+                            <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>🛒 Online Shopping App</h3>
+                        <p>Developed a responsive e-commerce website with product listings, categories, and interactive
+                            UI elements. Designed a modern layout with clean navigation and product cards to simulate a
+                            real online shopping experience.</p>
+                        <a href="https://iridescent-stroopwafel-e62d8f.netlify.app/">
+                            <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn2" href="https://github.com/Intiyaj-Raj">See More</a>
+        </div>
+    </div>
+
+
+    <!-- My Certficate -->
+    <div id="certificate">
+        <div class="container">
+            <h1 class="sub-title">My Certficates</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/certificate/sankalp.jpg" alt="html certificate">
+                    <div class="layer">
+                        <h3>AICTE-SANKALP</h3>
+                        <p align="justify" class="cdetails">
+                            I attended a workshop on High Performance Computing by AICTE-SANKALP, which improved my
+                            knowledge of advanced computing systems and technology.
+                        </p>
+                        <a href="images/certificate/sankalp.jpg"><i class="fa fa-external-link"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/certificate/simplilern.jpg" alt="css certificate">
+                    <div class="layer">
+                        <h3>Introduction to CSS</h3>
+                        <p align="justify" class="cdetails">I completed a CSS course and learned styling, layout,
+                            flexbox, grid, and responsive design to make websites look better and cleaner
+                        </p>
+                        <a href="images/certificate/simplilern.jpg">
+                            <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/certificate/js certificate.png" alt="JavaScript certificate">
+                    <div class="layer">
+                        <h3>Advance JavaScript</h3>
+                        <p align="justify" class="cdetails">I completed a JavaScript course where I learned basics like
+                            variables, functions, events, and DOM. It helped me make websites interactive and more
+                            dynamic.</p>
+                        <a href="images/certificate/js certificate.png">
+                            <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn2" href="https://www.linkedin.com/in/intiyaj-ansari/details/certifications/">See More</a>
+        </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+        <h1>Testimonials</h1>
+        <div class="testimonial-slider">
+            <div class="testimonial-card active">
+                <img src="images/neela.avif" alt="NeelaSantosh">
+                <p>"Intiyaj showed great dedication during his internship. He learned quickly and built responsive,
+                    clean UIs. His passion for frontend development is clear, and he's always open to feedback."</p>
+                <h4>— Mr. Neela Santosh Kumar CodeTech it Solutions</h4>
+                <span>🧑‍💼 Internship Mentor</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/manav.jpg" alt="manav">
+                <p>"Working with Intiyaj on the Flipkart clone and the online learning platform was super smooth. He
+                    handled the design parts really well and always fixed bugs quickly. A great teammate!"</p>
+                <h4>— Manav Dutt , College Project Partner</h4>
+                <span>🤝 Project Teammate</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/DEEPAK.jpg" alt="deepak">
+                <p>"Intiyaj and I built a Netflix clone together. He was super quick with UI designs and always found
+                    smart ways to solve layout issues. His frontend skills are really solid!"
+                </p>
+                <h4>— Deepak Kumar Ray, Project Teammate</h4>
+                <span>🤝 Project Teammate</span>
+            </div>
+        </div>
+        <div class="testimonial-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+
+    <!-- footer section -->
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i>intiyajraj786@gmail.com</p>
+                    <p>
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>+91 911739XXXX
+                    </p>
+                    <div class="social-icons">
+                        <!-- add your social media account link -->
+                        <a href="https://www.linkedin.com/in/intiyaj-ansari/"><i class="fab fa-facebook"
+                                aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/intiyaj-ansari/"><i class="fab fa-instagram"
+                                aria-hidden="true"></i></a>
+                        <a href="https://github.com/Intiyaj-Raj"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/intiyaj-ansari/"><i class="fab fa-linkedin"
+                                aria-hidden="true"></i></a>
+                    </div>
+                    <!-- add your cv pdf file  -->
+                    <a href="images/RESUME.pdf" download class="btn btn3">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" placeholder="Enter Your Name" name="Name" required>
+                        <input type="email" placeholder="EnterYoue Email" name="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Intiyaj <i class="fa fa-heart" aria-hidden="true"></i> Raj</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    animation: bgcolor 30s infinite;
+    -webkit-animation: bgcolor 30s infinite;
+    -moz-animation: bgcolor 30s infinite;
+    -o-animation: bgcolor 30s infinite;
+}
+
+@keyframes bgcolor {
+    0% {
+        background: linear-gradient(45deg, #1a1a1a, #4a5568);
+
+    }
+
+    25% {
+        background: linear-gradient(45deg, #0a0a1a, #2c3e50);
+
+    }
+
+    50% {
+        background: linear-gradient(45deg, #1b0a2a, #5a4a72);
+    }
+
+    75% {
+        background: linear-gradient(45deg, #0a1a0a, #2f4f4f);
+    }
+
+    100% {
+        background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    }
+}
+
+@-webkit-keyframes bgcolor {
+    0% {
+        background: linear-gradient(45deg, #1a1a1a, #4a5568);
+
+    }
+
+    25% {
+        background: linear-gradient(45deg, #0a0a1a, #2c3e50);
+
+    }
+
+    50% {
+        background: linear-gradient(45deg, #1b0a2a, #5a4a72);
+    }
+
+    75% {
+        background: linear-gradient(45deg, #0a1a0a, #2f4f4f);
+    }
+
+    100% {
+        background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    }
+}
+
+@-moz-keyframes bgcolor {
+    0% {
+        background: linear-gradient(45deg, #1a1a1a, #4a5568);
+
+    }
+
+    25% {
+        background: linear-gradient(45deg, #0a0a1a, #2c3e50);
+
+    }
+
+    50% {
+        background: linear-gradient(45deg, #1b0a2a, #5a4a72);
+    }
+
+    75% {
+        background: linear-gradient(45deg, #0a1a0a, #2f4f4f);
+    }
+
+    100% {
+        background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    }
+}
+
+@-o-keyframes bgcolor {
+    0% {
+        background: linear-gradient(45deg, #1a1a1a, #4a5568);
+
+    }
+
+    25% {
+        background: linear-gradient(45deg, #0a0a1a, #2c3e50);
+
+    }
+
+    50% {
+        background: linear-gradient(45deg, #1b0a2a, #5a4a72);
+    }
+
+    75% {
+        background: linear-gradient(45deg, #0a1a0a, #2f4f4f);
+    }
+
+    100% {
+        background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    }
+}
+
+#heading {
+    background: linear-gradient(45deg, red, blue, green);
+    color: #EEAECA;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.calculator {
+    border: 2px solid #717377;
+    border-radius: 10px;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    margin: 30px;
+}
+
+input {
+    width: 300px;
+    border: none;
+    padding: 24px;
+    background: transparent;
+    margin: 10px;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    color: white;
+    outline-color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px #ffffff1a;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.2) rotate(-18deg);
+}
+
+button:active {
+    background-color: blue;
+}
+
+.equal {
+    background-color: #fb7c14;
+}
+
+.equal:hover {
+    background-color: #f8ad71;
+}
+
+.equal:active {
+    background-color: blue;
+}
+
+.operator {
+    color: #6dee0a;
+}
+
+.delete {
+    background: #ff0000;
+}
+
+.delete:hover {
+    background: #f24d4de6;
+}
+
+.delete:active {
+    background-color: blue;
+}
+
+/* footer */
+footer {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+.heart {
+    color: red;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #heading {
+        font-size: 2rem;
+    }
+
+    button {
+        width: 16%;
+        height: 40px;
+        border-radius: 7px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    input {
+        width: 75vw;
+        outline-color: white;
+    }
+
+    #heading {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 15px;
+        width: 16%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #heading {
+        font-size: 20px;
+    }
+
+    button {
+        width: 14%;
+        font-size: 12px;
+    }
+}
