@@ -57,18 +57,13 @@ CodeAlpha_personal_portfolio/
 
 ## 📸 Screenshots
 
-### Home / About Section
-![About Me](images/about.png)
-
-### Portfolio Projects
-- Netflix Clone  
-  ![Netflix Clone](images/work-1.png)
-
-- Online Learning Platform  
-  ![Online Learning Platform](images/work-2.png)
-
-- Online Shopping App  
-  ![Online Shopping App](images/work-3.png)
+![Image](https://github.com/user-attachments/assets/9117ec49-848d-4f57-8d0d-fcf124c61edf)
+![Image](https://github.com/user-attachments/assets/cfa2db52-868b-430b-97dc-71c5822b1cc5)
+![Image](https://github.com/user-attachments/assets/99f53cfd-5091-49d1-a9c1-878475b2e543)
+![Image](https://github.com/user-attachments/assets/46811ddd-7de3-4b5e-a229-5324a7b805b7)
+![Image](https://github.com/user-attachments/assets/749fd3d7-ada5-4b4c-ad7b-2dfbd25bf920)
+![Image](https://github.com/user-attachments/assets/334de9ff-107c-4989-9a52-4a7204e312d1)
+![Image](https://github.com/user-attachments/assets/1d22d6fa-4a87-490c-a4cc-e6b500a93330)
 
 ## ⚙️ How to Use
 
