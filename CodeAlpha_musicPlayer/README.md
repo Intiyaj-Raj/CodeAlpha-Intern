@@ -14,7 +14,7 @@ A modern, responsive web-based music player built with HTML, CSS, and JavaScript
 
 ---
 
-## Project Structure
+## 📁 File Structure
 
 ```
 musicPlayer/
@@ -53,3 +53,7 @@ Developed by Intiyaj Raj
 ## License
 
 This project is open source and available under the MIT License.
+
+## 📸 Screenshots
+
+![Image](https://github.com/user-attachments/assets/4a870038-7fee-4ce3-a811-81e29bc36151)
