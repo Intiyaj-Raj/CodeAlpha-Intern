@@ -39,4 +39,6 @@ Calculator/
 ## ⚠️ Note on JavaScript Evaluation
 The calculator uses JavaScript's `eval()` function to evaluate arithmetic expressions. While this simplifies the implementation, be cautious with input handling in production environments to avoid security risks.
 
+## Screenshots
 
+![Image](https://github.com/user-attachments/assets/606ee778-3df0-44ae-97f5-27ebc847a21a)
