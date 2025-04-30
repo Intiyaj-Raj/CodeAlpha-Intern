@@ -31,3 +31,11 @@ To use the Image Gallery, just open the `index.html` file in any modern web brow
 ## License
 
 This project is licensed under the MIT License. You can use, change, and share this project freely.
+
+## Screenshots
+
+### [Screenshot 1]    ![Image](https://github.com/user-attachments/assets/6e5ed0d8-757a-4c53-aeb1-aef0a24f0ee6)
+
+### [Screenshot 2]    ![Image](https://github.com/user-attachments/assets/f363b2b7-3641-4c90-8dc6-1002e5a6191c)
+
+### [Screenshot 3]    ![Image](https://github.com/user-attachments/assets/8bee036a-c8d1-40c7-aa82-5fdca970f123)
