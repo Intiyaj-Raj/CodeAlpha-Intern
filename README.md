@@ -1,9 +1,9 @@
 # 🚀 CodeAlpha Internship Projects  
-**Intern Name:** Intiyaj Ansari  
-**Student ID:** CA/MA1/3132  
-**Internship Duration:** 1st May 2025 – 30th May 2025  
-**Role:** Frontend Development Intern  
-**Company:** CodeAlpha  
+**👨‍🎓 Name:** Intiyaj Ansari  
+**🆔 Student ID:** CA/MA1/3132  
+**🏢 Company:** CodeAlpha  
+**📅 Duration:** 1st May 2025 – 30th May 2025  
+**💼 Role:** Frontend Developer Intern  
 
 ## 📁 Projects Completed
 
